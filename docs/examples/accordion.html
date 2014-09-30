@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Accordion Example - Marka</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../static/marka/css/marka.css">
+
+<style>
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    background: #2ec100;
+    color: #333;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 22px;
+}
+
+p {
+    line-height: 160%;
+    margin: 0;
+}
+
+i {
+    margin-top: 2px;
+}
+
+.clear {
+    clear: both;
+}
+
+#container {
+    width: 500px;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+
+#list {
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0, 0.2);
+    background: #fff;
+}
+
+#list .item .head {
+    border-top: 1px solid #aaa;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+#list .item:first-child .head {
+    border-top: none;
+}
+
+#list .item .content {
+    max-height: 0px;
+    padding: 0px 25px;
+    overflow: hidden;
+    -webkit-transition: all 300ms;
+       -moz-transition: all 300ms;
+         -o-transition: all 300ms;
+            transition: all 300ms;
+}
+
+#list .item .content.opened {
+    max-height: 200px;
+    padding: 25px;
+    border-top: 1px solid #aaa;
+}
+
+#list .item:last-child .content.opened {
+    border-top: none;
+}
+</style>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-36521756-2', 'auto');
+          ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Accordion</h1>
+
+            <div id="list">
+                <div class="item">
+                    <div class="head">
+                        <h2><i></i> First Title<h2> 
+                    </div>
+                    <div class="content">
+                        <p>Dessert I love fruitcake biscuit donut apple pie. Marzipan muffin halvah I love marzipan. I love marshmallow applicake marzipan cake tiramisu pastry tiramisu jelly-o. Liquorice donut lemon drops toffee macaroon.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="head">
+                        <h2><i></i> Second Title<h2>
+                    </div>
+                    <div class="content">
+                        <p>Dessert I love fruitcake biscuit donut apple pie. Marzipan muffin halvah I love marzipan. I love marshmallow applicake marzipan cake tiramisu pastry tiramisu jelly-o. Liquorice donut lemon drops toffee macaroon.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="head">
+                        <h2><i></i> Third Title<h2>
+                    </div>
+                    <div class="content">
+                        <p>Dessert I love fruitcake biscuit donut apple pie. Marzipan muffin halvah I love marzipan. I love marshmallow applicake marzipan cake tiramisu pastry tiramisu jelly-o. Liquorice donut lemon drops toffee macaroon.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="head">
+                        <h2><i></i> Fourth Title<h2>
+                    </div>
+                    <div class="content">
+                        <p>Dessert I love fruitcake biscuit donut apple pie. Marzipan muffin halvah I love marzipan. I love marshmallow applicake marzipan cake tiramisu pastry tiramisu jelly-o. Liquorice donut lemon drops toffee macaroon.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="head">
+                        <h2><i></i> Fifth Title<h2>
+                    </div>
+                    <div class="content">
+                        <p>Dessert I love fruitcake biscuit donut apple pie. Marzipan muffin halvah I love marzipan. I love marshmallow applicake marzipan cake tiramisu pastry tiramisu jelly-o. Liquorice donut lemon drops toffee macaroon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../static/marka/js/marka.js"></script>
+        <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).on('ready', function() {
+
+                $('#list .item .head i').each(function(i, el) {
+                    console.log(el);
+                    var icons = new Marka(el);
+                    icons.set('circle-plus').size(30).color('#2ec100');
+                });
+
+                $('#list .item .head').on('click', function() {
+                    var el = $(this).parent().find('.content');
+                    var icon = new Marka($(this).find('i.marka')[0]);
+                    icon.size(30).color('#2ec100');
+
+                    if (el.hasClass('opened')) {
+                        icon.set('circle-plus');
+                        return el.removeClass('opened');
+                    }
+
+                    icon.set('circle-minus');
+                    return el.addClass('opened');
+                });
+            });
+        </script>
+    </body>
+</html>
