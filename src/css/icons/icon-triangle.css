@@ -8,11 +8,11 @@
   transform: rotate(-60deg) skewX(-30deg) scale(0.5, 0.433) translate(18%, -3%);
 }
 .marka.marka-icon-triangle i:nth-child(2) {
-  -webkit-transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -11%);
-  -moz-transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -11%);
-  -ms-transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -11%);
-  -o-transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -11%);
-  transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -11%);
+  -webkit-transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -10.8%);
+  -moz-transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -10.8%);
+  -ms-transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -10.8%);
+  -o-transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -10.8%);
+  transform: rotate(180deg) skewX(-30deg) scale(0.5) translate(20%, -10.8%);
 }
 .marka.marka-icon-triangle i:nth-child(3) {
   -webkit-transform: rotate(90deg) skewY(-30deg) scale(0.5) translate(30%, -2%);
