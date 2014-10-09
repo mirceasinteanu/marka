@@ -17,7 +17,9 @@
     		block: 3,
     		invert: [1]
     	},
-
+        'fullscreen':{
+            block: 6
+        }
     	'circle-minus': {
     		block: 3,
     		invert: 'last'
