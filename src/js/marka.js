@@ -23,6 +23,9 @@
         'next': {
             block: 4
         },
+        'prev': {
+            block: 4
+        },
     	'circle-minus': {
     		block: 3,
     		invert: 'last'
