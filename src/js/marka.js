@@ -20,6 +20,9 @@
         'fullscreen': {
             block: 6
         },
+        'next': {
+            block: 4
+        },
     	'circle-minus': {
     		block: 3,
     		invert: 'last'
