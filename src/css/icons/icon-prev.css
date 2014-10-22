@@ -1,0 +1,29 @@
+/* Prev icon */
+.marka.marka-icon-prev i {
+  -webkit-transform: rotate(-45deg) scale(0.5, 0.15) translate(-6%, -139%);
+  -moz-transform: rotate(-45deg) scale(0.5, 0.15) translate(-6%, -139%);
+  -ms-transform: rotate(-45deg) scale(0.5, 0.15) translate(-6%, -139%);
+  -o-transform: rotate(-45deg) scale(0.5, 0.15) translate(-6%, -139%);
+  transform: rotate(-45deg) scale(0.5, 0.15) translate(-6%, -139%);
+}
+.marka.marka-icon-prev i:nth-child(2) {
+  -webkit-transform: rotate(45deg) scale(0.5, 0.15) translate(-6%, 139%);
+  -moz-transform: rotate(45deg) scale(0.5, 0.15) translate(-6%, 139%);
+  -ms-transform: rotate(45deg) scale(0.5, 0.15) translate(-6%, 139%);
+  -o-transform: rotate(45deg) scale(0.5, 0.15) translate(-6%, 139%);
+  transform: rotate(45deg) scale(0.5, 0.15) translate(-6%, 139%);
+}
+.marka.marka-icon-prev i:nth-child(3) {
+  -webkit-transform: rotate(-45deg) scale(0.5, 0.15) translate(38%, 10%);
+  -moz-transform: rotate(-45deg) scale(0.5, 0.15) translate(38%, 10%);
+  -ms-transform: rotate(-45deg) scale(0.5, 0.15) translate(38%, 10%);
+  -o-transform: rotate(-45deg) scale(0.5, 0.15) translate(38%, 10%);
+  transform: rotate(-45deg) scale(0.5, 0.15) translate(38%, 10%);
+}
+.marka.marka-icon-prev i:nth-child(4) {
+  -webkit-transform: rotate(45deg) scale(0.5, 0.15) translate(38%, -10%);
+  -moz-transform: rotate(45deg) scale(0.5, 0.15) translate(38%, -10%);
+  -ms-transform: rotate(45deg) scale(0.5, 0.15) translate(38%, -10%);
+  -o-transform: rotate(45deg) scale(0.5, 0.15) translate(38%, -10%);
+  transform: rotate(45deg) scale(0.5, 0.15) translate(38%, -10%);
+}
