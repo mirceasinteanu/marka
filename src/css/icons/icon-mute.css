@@ -21,3 +21,10 @@
   -o-transform: rotate(90deg) skewY(-30deg) scale(0.5) translate(30%, -2%);
   transform: rotate(90deg) skewY(-30deg) scale(0.5) translate(30%, -2%);
 }
+.marka.marka-icon-mute i:nth-child(4) {
+  -webkit-transform: rotate(90deg) skewY(-30deg) scale(0.5) translate(30%, -2%);
+  -moz-transform: rotate(90deg) skewY(-30deg) scale(0.5) translate(30%, -2%);
+  -ms-transform: rotate(90deg) skewY(-30deg) scale(0.5) translate(30%, -2%);
+  -o-transform: rotate(90deg) skewY(-30deg) scale(0.5) translate(30%, -2%);
+  transform: rotate(90deg) skewY(-30deg) scale(0.5) translate(30%, -2%);
+}

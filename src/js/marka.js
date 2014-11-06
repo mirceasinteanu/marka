@@ -27,7 +27,7 @@
             block: 4
         },
         'mute': {
-            block: 2
+            block: 4
         },
     	'circle-minus': {
     		block: 3,
