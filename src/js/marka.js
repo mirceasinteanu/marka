@@ -29,6 +29,9 @@
         'mute': {
             block: 4
         },
+        'unmute': {
+            block: 4
+        },
     	'circle-minus': {
     		block: 3,
     		invert: 'last'
