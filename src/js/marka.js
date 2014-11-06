@@ -26,6 +26,9 @@
         'prev': {
             block: 4
         },
+        'mute': {
+            block: 2
+        },
     	'circle-minus': {
     		block: 3,
     		invert: 'last'
