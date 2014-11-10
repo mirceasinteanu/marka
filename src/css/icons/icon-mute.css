@@ -28,9 +28,9 @@
   transform: translate(0%, 43%) scale(.8, .1);
 }
 .marka.marka-icon-mute i:nth-child(5){
-  -webkit-transform: translate(0%, 43%) scale(.4, .1);
-  -moz-transform: translate(0%, 43%) scale(.4, .1);
-  -ms-transform: translate(0%, 43%) scale(.4, .1);
-  -o-transform: translate(0%, 43%) scale(.4, .1);
-  transform: translate(0%, 43%) scale(.4, .1);
+  -webkit-transform: translate(0%, 21%) scale(.4, .1);
+  -moz-transform: translate(0%, 21%) scale(.4, .1);
+  -ms-transform: translate(0%, 21%) scale(.4, .1);
+  -o-transform: translate(0%, 21%) scale(.4, .1);
+  transform: translate(0%, 21%) scale(.4, .1);
 }
