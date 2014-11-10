@@ -27,10 +27,10 @@
             block: 4
         },
         'mute': {
-            block: 4
+            block: 5
         },
         'unmute': {
-            block: 4
+            block: 5
         },
     	'circle-minus': {
     		block: 3,
