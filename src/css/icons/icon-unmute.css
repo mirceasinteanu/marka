@@ -1,0 +1,36 @@
+/* Unmute icon */
+.marka.marka-icon-unmute i {
+  -webkit-transform: scale(.5) translate(0, -50%);
+  -moz-transform: scale(.5) translate(0, -50%);
+  -ms-transform: scale(.5) translate(0, -50%);
+  -o-transform: scale(.5) translate(0, -50%);
+  transform: scale(.5) translate(0, -50%);
+}
+.marka.marka-icon-unmute i:nth-child(2) {
+  -webkit-transform: rotate(180deg) skewX(-30deg) scale(0.4) translate(51%, 50%);
+  -moz-transform: rotate(180deg) skewX(-30deg) scale(0.4) translate(51%, 50%);
+  -ms-transform: rotate(180deg) skewX(-30deg) scale(0.4) translate(51%, 50%);
+  -o-transform: rotate(180deg) skewX(-30deg) scale(0.4) translate(51%, 50%);
+  transform: rotate(180deg) skewX(-30deg) scale(0.4) translate(51%, 50%);
+}
+.marka.marka-icon-unmute i:nth-child(3) {
+  -webkit-transform: rotate(90deg) skewY(-30deg) scale(0.4) translate(-50%, -50%);
+  -moz-transform: rotate(90deg) skewY(-30deg) scale(0.4) translate(-50%, -50%);
+  -ms-transform: rotate(90deg) skewY(-30deg) scale(0.4) translate(-50%, -50%);
+  -o-transform: rotate(90deg) skewY(-30deg) scale(0.4) translate(-50%, -50%);
+  transform: rotate(90deg) skewY(-30deg) scale(0.4) translate(-50%, -50%);
+}
+.marka.marka-icon-unmute i:nth-child(4) {
+  -webkit-transform: rotate(45deg) scale(.5,.1) translate(40%, 206%);
+  -moz-transform: rotate(45deg) scale(.5,.1) translate(40%, 206%);
+  -ms-transform: rotate(45deg) scale(.5,.1) translate(40%, 206%);
+  -o-transform: rotate(45deg) scale(.5,.1) translate(40%, 206%);
+  transform: rotate(45deg) scale(.5,.1) translate(40%, 206%);
+}
+.marka.marka-icon-unmute i:nth-child(5){
+  -webkit-transform: rotate(-45deg) scale(.5,.1) translate(-40%, 205%);
+  -moz-transform: rotate(-45deg) scale(.5,.1) translate(-40%, 205%);
+  -ms-transform: rotate(-45deg) scale(.5,.1) translate(-40%, 205%);
+  -o-transform: rotate(-45deg) scale(.5,.1) translate(-40%, 205%);
+  transform: rotate(-45deg) scale(.5,.1) translate(-40%, 205%);
+}
